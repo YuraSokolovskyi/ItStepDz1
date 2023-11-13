@@ -1,0 +1,702 @@
+body {
+    margin: 0;
+}
+
+.containerHeader {
+    margin: 0 130px;
+}
+
+.header {
+    margin: 0 0 74px 0;
+    background-color: #FFFBF3;
+    padding-bottom: 1px;
+}
+
+.navigation {
+    margin: 0 0 85px 0;
+    display: flex;
+    padding: 30px 0 0 0;
+}
+
+.logo {
+    margin: 0 auto 0 0;
+    color: #3C3C3C;
+    font-family: Inter, serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.logoFood {
+    color: #FCC647;
+}
+
+.navigationList {
+    list-style: none;
+    display: flex;
+    gap: 87px;
+    margin: 6px 6px 0 0;
+    padding: 0;
+}
+
+.navigationListItem {
+    color: #3C3C3C;
+    font-family: Segoe UI, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-bottom: 3px solid transparent;
+}
+
+.navigationListItem_selected {
+    color: #FCC647;
+    border-color: #FCC647;
+}
+
+.navigationListItemLink {
+    text-decoration: none;
+    color: inherit;
+}
+
+.containerHeaderMain {
+    margin: 0 0 0 130px;
+}
+
+.headerMainContent {
+    margin: 35px auto 0 0;
+}
+
+.headerMain {
+    display: flex;
+    margin: 0 0 117px 0;
+}
+
+.headerMainFastDelivery {
+    padding: 12px 21px;
+    margin: 0 0 18px 0;
+    color: #F4B41B;
+    background-color: #FFF2D4;
+    border-radius: 8px;
+    border: none;
+}
+
+.headerMainTitle {
+    max-width: 600px;
+    margin: 0 0 17px 0;
+    color: #3C3C3C;
+    font-family: Segoe UI, serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.headerMainSubtitle {
+    max-width: 600px;
+    color: #667085;
+    margin: 0 0 65px 0;
+    font-family: Inter, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.headerMainTitleSpan {
+    color: #FFC12F;
+}
+
+.headerMainActions {
+    display: flex;
+}
+
+.headerMainGetStarted {
+    cursor: pointer;
+    margin-right: 26px;
+    padding: 15px 20px;
+    color: white;
+    background-color: #FFC12F;
+    border: none;
+    border-radius: 48px;
+    font-family: Inter, serif;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.headerMainActionsMoreInfo {
+    display: flex;
+    height: 52px;
+    align-items: center;
+}
+
+.headerMainActionsMoreInfoBtn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-right: 14px;
+    padding: 0;
+}
+
+.headerMainActionsMoreInfoIcon {
+    width: 40px;
+    height: 40px;
+}
+
+.headerMainActionsMoreInfoText {
+    margin: 0;
+    color: #3C3C3C;
+    font-family: Inter, serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.containerMain {
+    margin: 0 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.howItWorks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.howItWorksTitle {
+    margin: 0 0 25px 0;
+    color: #3C3C3C;
+    font-family: Segoe UI, serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.howItWorksSubtitle {
+    width: 505px;
+    margin: 0 0 115px 0;
+    color: #667085;
+    text-align: center;
+    font-family: Inter, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.howItWorksList {
+    margin: 0 0 85px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 80px;
+}
+
+.howItWorksListItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.howItWorksListItem_middle {
+    padding-top: 42px;
+}
+
+.howItWorksListItemIcon {
+    width: 88px;
+    height: 88px;
+    margin-bottom: 8px;
+}
+
+.howItWorksListItemTitle {
+    margin: 0 0 20px;
+    color: #3C3C3C;
+    font-family: Inter, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.howItWorksListItemDesc {
+    width: 325px;
+    margin: 0;
+    color: #667085;
+    text-align: center;
+    font-family: Inter, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.howItWorksListTransition {
+    position: absolute;
+    right: -140px;
+    top: 50px;
+}
+
+.dishes {
+    margin-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dishesTitle {
+    margin: 0 0 16px;
+    color: #3C3C3C;
+    font-family: Segoe UI, serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.dishesSubtitle {
+    width: 465px;
+    margin: 0 0 120px;
+    color: #667085;
+    text-align: center;
+    font-family: Inter, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.dishesList {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: wrap;
+    gap: 16px;
+}
+
+.dishesListItem {
+    width: 273px;
+    height: 319px;
+    padding: 17px 20px;
+    border: 1px solid rgba(112, 112, 112, 0.20);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.dishesItemImg {
+    margin-bottom: 11px;
+}
+
+.dishesItemRating {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0 auto 5px 0;
+}
+
+.dishesItemTitle {
+    margin: 0 auto 10px 0;
+    color: #3C3C3C;
+    font-family: Segoe UI, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.dishesItemDesc {
+    margin: 0 0 auto;
+    color: #667085;
+    font-family: Inter, serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.dishesItemActions {
+    width: 230px;
+    display: flex;
+    align-items: center;
+}
+
+.dishesItemPrice {
+    margin: 0 auto 0 0;
+    text-align: center;
+    color: #3C3C3C;
+    font-family: Inter, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;
+}
+
+.dishesItemActionsBtns {
+    display: flex;
+}
+
+.dishesItemSaveBtn {
+    cursor: pointer;
+    height: 29px;
+    width: 29px;
+    margin: 0 9px 0 auto;
+    padding: 0;
+    border: none;
+}
+
+.dishesItemShareBtn {
+    cursor: pointer;
+    height: 29px;
+    width: 29px;
+    margin: 0 0 0 auto;
+    padding: 0;
+    border: none;
+}
+
+.orderNow {
+    margin: 0 0 115px;
+    padding: 0 135px;
+    display: flex;
+    background-color: #FFFBF3;
+    align-items: center;
+}
+
+.orderNowImg {
+    margin-right: 167px;
+}
+
+.orderNowInfo {
+    width: 540px;
+    margin: 0 0 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.orderNowTag {
+    margin: 0 auto 13px 0;
+    width: 109px;
+    height: 32px;
+    background-color: #FFEFC8;
+    border-radius: 6px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.orderNowTagText {
+    margin: auto 0;
+    color: #EF9737;
+    text-align: center;
+    font-family: Inter, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 12px;
+}
+
+.orderNowTitle {
+    margin: 0 0 30px;
+    color: #535353;
+    font-family: Segoe UI, serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.orderNowDesc {
+    margin: 0 0 30px 0;
+    color: #667085;
+    font-family: Inter, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.orderNowBtn {
+    cursor: pointer;
+    width: 120px;
+    padding: 16px 19px;
+    border: none;
+    border-radius: 6px;
+    background-color: #FCC647;
+    color: white;
+}
+
+.app {
+    margin: 0 133px 285px;
+    display: flex;
+    align-items: center;
+}
+
+.appDescription {
+    margin-right: auto;
+}
+
+.appTitle {
+    max-width: 450px;
+    margin: 0 0 30px 0;
+    color: #3C3C3C;
+    font-family: Segoe UI, serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.appDesc {
+    max-width: 500px;
+    margin: 0 0 45px;
+    color: #667085;
+    font-family: Inter, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.appDownload {
+    margin-right: auto;
+    display: flex;
+}
+
+.appDownloadGoogle {
+    margin-right: 23px;
+}
+
+.footer {
+    position: relative;
+    background-color: #232233;
+    padding: 235px 136px 18px 136px;
+}
+
+.footerColumns {
+    padding: 0 0 65px;
+    margin-bottom: 18px;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerLogo {
+    margin: 0 0 16px 0;
+    color: #FFF;
+    font-family: Inter, serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footerLogoFood {
+    margin: 0;
+    color: #FCC647;
+}
+
+.footerDesc {
+    max-width: 335px;
+    margin: 0 0 30px;
+    color: #FFF;
+    font-family: Inter, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.footerSocial {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footerSocialItem:not(:last-child) {
+    padding-right: 30px;
+    border-right: 1px solid white;
+}
+
+.footerSocialItem:not(:first-child) {
+    padding-left: 30px;
+}
+
+.footerQuickLinksTitle {
+    margin: 0 0 10px;
+    color: #FFF;
+    font-family: Segoe UI, serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.footerQuickLinks {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footerQuickLink:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.footerQuickLinkLink {
+    color: #FFF;
+    font-family: Segoe UI, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.footerNewsTitle {
+    margin: 0 0 10px;
+    color: #FFF;
+    font-family: Segoe UI, serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    text-transform: uppercase;
+}
+
+.footerNewsDesc {
+    max-width: 370px;
+    margin: 0 0 33px;
+    color: #FFF;
+    font-family: Inter, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.footerNewsForm {
+    padding: 2px;
+    border-radius: 4px;
+    max-width: 370px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.footerNewsEmailInput {
+    flex: 1;
+    padding: 13px 0 13px 18px;
+    border: none;
+    color: #6C6C72;
+    font-family: Inter, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.footerNewsEmailInput:focus {
+    outline: none;
+}
+
+.footerNewsFormSubmit {
+    cursor: pointer;
+    padding: 11px 14px;
+    border: none;
+    border-radius: 4px;
+    background-color: #FEB918;
+}
+
+.footerCopyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerCopyrightText {
+    margin: 0;
+    color: #FFF;
+    font-family: Inter, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.footerCopyrightIcon {
+    margin-right: 10px;
+}
+
+.footerContactInfo {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    height: 230px;
+    padding: 65px 95px;
+    background-color: white;
+    position: absolute;
+    top: -115px;
+    left: calc(50% - 585px);
+    border-radius: 30px;
+    filter: drop-shadow(0px 10px 100px rgba(0, 0, 0, 0.24));
+    box-sizing: border-box;
+}
+
+.footerContactInfoEmail {
+    display: flex;
+    align-items: center;
+}
+
+.footerContactInfoEmailIcon {
+    margin-right: 18px;
+}
+
+.footerContactInfoEmailText {
+    color: #232233;
+    font-family: Inter, serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38px;
+    text-transform: lowercase;
+    text-decoration: none;
+
+}
+
+.footerContactInfoPhone {
+    display: flex;
+    align-items: center;
+}
+
+.footerContactInfoPhoneIcon {
+    margin-right: 18px;
+}
+
+.footerContactInfoPhoneText {
+    color: #232233;
+    font-family: Inter, serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 38px;
+}
+
+.footerContactInfoDivider {
+    width: 4px;
+    background-color: #E6E6E6;
+}
