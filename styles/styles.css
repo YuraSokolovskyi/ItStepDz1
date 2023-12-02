@@ -209,7 +209,7 @@ body {
     position: relative;
 }
 
-.howItWorksListItem_middle {
+.howItWorksListItem_delivery {
     padding-top: 42px;
 }
 
@@ -597,6 +597,20 @@ body {
     align-items: center;
 }
 
+.footerNewsForm:valid {
+    outline: 1px solid lawngreen;
+}
+
+.footerNewsForm:invalid {
+    outline: 1px solid red;
+}
+
+
+.footerNewsFormLabel {
+    flex: 1;
+    display: flex;
+}
+
 .footerNewsEmailInput {
     flex: 1;
     padding: 13px 0 13px 18px;
@@ -699,4 +713,341 @@ body {
 .footerContactInfoDivider {
     width: 4px;
     background-color: #E6E6E6;
+}
+
+
+@media (max-width: 938px) {
+    .containerHeader {
+        margin: 0 50px;
+    }
+
+    .navigationList {
+        margin: 0;
+        gap: 50px;
+    }
+
+    .containerHeaderMain {
+        margin: 0 0 0 50px;
+    }
+
+    .headerMainContent {
+        min-width: 282px;
+    }
+
+    .headerMainSubtitle {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .headerMainTitle {
+        font-size: 32px;
+    }
+
+    .headerMainImg {
+        object-fit: contain;
+    }
+
+    .headerMainActions {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .headerMainGetStarted {
+        margin: 0 0 15px 0;
+    }
+
+    .containerMain {
+        margin: 0 50px;
+    }
+
+    .howItWorksSubtitle {
+        margin: 0 0 60px;
+    }
+
+    .howItWorks {
+        width: 100%;
+    }
+
+    .howItWorksList {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .howItWorksListItem_order {
+        margin: 0 auto 0 0;
+    }
+
+    .howItWorksListItem_delivery {
+        margin: 0 0 0 auto;
+    }
+
+    .howItWorksListItem_payment {
+        margin: 0 auto 0 0;
+    }
+
+    .howItWorksListTransition_order {
+        rotate: 220deg;
+        right: -270px;
+        top: 225px;
+    }
+
+    .howItWorksListTransition_delivery {
+        rotate: 340deg;
+        right: 355px;
+        top: 280px;
+    }
+
+    .dishesSubtitle {
+        margin: 0 0 50px 0;
+    }
+
+    .dishesListItem {
+        width: 260px;
+        padding: 15px 17px;
+    }
+
+    .orderNow {
+        padding: 0 50px;
+    }
+
+    .orderNowImg {
+        margin: 0 50px 0 0;
+    }
+
+    .app {
+        margin: 0 50px 200px;
+    }
+
+    .appImg {
+        width: 450px;
+    }
+
+    .footer {
+        padding: 100px 50px 20px 50px;
+    }
+
+    .footerContactInfo {
+        width: calc(725px + 40px);
+        height: calc(100px + 40px);
+        padding: 0 20px;
+        left: calc(50% - 363px - 20px);
+        top: -85px;
+    }
+
+    .footerColumns {
+        padding: 0 0 30px;
+    }
+
+    .footerDesc {
+        max-width: 200px;
+    }
+
+    .footerSocial {
+        flex-wrap: wrap;
+        width: 80px;
+    }
+
+    .footerSocialItem:not(:last-child) {
+        border: none;
+        padding-right: 15px;
+    }
+
+    .footerSocialItem:not(:first-child) {
+        padding-left: 0;
+    }
+
+    .footerSocialItem {
+        padding: 0 15px 15px 0;
+    }
+
+    .footerContactInfoEmailIcon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .footerContactInfoPhoneIcon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .footerContactInfoEmailText {
+        font-size: 24px;
+    }
+
+    .footerContactInfoPhoneText {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navigation {
+        align-items: center;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .navigationList {
+        gap: 25px;
+    }
+
+    .headerMain {
+        flex-direction: column-reverse;
+    }
+
+    .howItWorksListTransition_order {
+        right: -190px;
+    }
+
+    .howItWorksListTransition_delivery {
+        right: 306px;
+        top: 247px;
+    }
+
+    .dishesList {
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .dishesListItem {
+        padding: 10px;
+    }
+
+    .orderNow {
+        padding: 50px;
+    }
+
+    .orderNowImg {
+        display: none;
+    }
+
+    .orderNowInfo {
+        margin: 0;
+    }
+
+    .app {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .appImg {
+        margin-bottom: 40px;
+    }
+
+    .appDescription {
+        margin: 0;
+    }
+
+    .footerContactInfo {
+        width: 725px;
+        left: calc(384px - 362px);
+    }
+
+    .footerMiddle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerQuickLinksTitle {
+        text-align: center;
+    }
+}
+
+@media (max-width: 450px) {
+    .containerHeader {
+        margin: 0 10px;
+    }
+
+    .navigationList {
+        flex-wrap: wrap;
+    }
+
+    .logoFood{
+        display: block;
+    }
+
+    .logo{
+        width: auto;
+        margin-right: 15px;
+    }
+
+    .navigation{
+        margin-bottom: 50px;
+    }
+
+    .headerMain{
+        margin-bottom: 50px;
+    }
+
+    .containerMain{
+        margin: 0 20px;
+    }
+
+    .howItWorksSubtitle{
+        width: auto;
+    }
+
+    .howItWorksListTransition{
+        display: none;
+    }
+
+    .howItWorksListItem{
+        margin: 0;
+    }
+
+    .footerContactInfoDivider{
+        display: none;
+    }
+
+    .footerContactInfo{
+        padding: 10px;
+        width: 337px;
+        height: auto;
+        flex-direction: column;
+        left: calc(450px / 2 - 337px / 2);
+    }
+
+    .footerContactInfoEmail{
+        margin-bottom: 15px;
+    }
+
+    .footerColumns{
+        flex-direction: column;
+    }
+
+    .footerMiddle{
+        align-items: flex-start;
+    }
+
+    .footerLeft{
+        margin-bottom: 30px;
+    }
+
+    .footerSocial{
+        width: auto;
+        flex-direction: row;
+    }
+
+    .footerQuickLinks{
+        display: flex;
+        gap: 15px;
+    }
+
+    .footerMiddle{
+        margin-bottom: 30px;
+    }
+
+    .footerDesc{
+        max-width: max-content;
+    }
+
+    .footerNewsDesc{
+        margin-bottom: 15px;
+    }
+
+    .footerCopyrightText{
+        font-size: 13px;
+    }
 }
